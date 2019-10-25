@@ -3,7 +3,7 @@
 * [本书说明](README.md)
 * [安装](setup.md)
 * [配置](config.md)
-* [部署](deploy.md)
+* [部署](deploy/deploy.md)
 * [插件](tags.md)
     * [tags](plugins/tags.md)
 
