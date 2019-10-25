@@ -94,6 +94,6 @@ $ git push -u origin master
 
 打开浏览器，进入仓库，会发现本地文件已经完全同步到仓库里面了。选择settings，找到GitHub Pages部分，在source中选择master branch/docs folder，如下图所示：
 
-![](C:image/2.png)
+![](image/2.png)
 
 之后稍等片刻，刷新浏览器，会发现系统提示说网站已经成功部署。点开上面的链接，即可看到发布后的电子书了。
