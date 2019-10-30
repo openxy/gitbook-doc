@@ -30,31 +30,39 @@ Gitbook使用的语言, 版本2.6.4中可选的语言如下：
 
 ## links
  在左侧导航栏添加链接信息
-`"links" : {  
+```
+"links" : {  
     "sidebar" : {   
         "Home" : "http://zhangjikai.com"         
     }  
-}`
+}
+```
 
 ## styles
 自定义页面样式， 默认情况下各generator对应的css文件
-`"styles": {
+```
+"styles": {
     "website": "styles/website.css",
     "ebook": "styles/ebook.css",
     "pdf": "styles/pdf.css",
     "mobi": "styles/mobi.css",
     "epub": "styles/epub.css"
-}`
+}
+```
 例如使`<h1> <h2>`标签有下边框， 可以在`website.css`中设置
-`h1 , h2{
+```
+h1 , h2{
     border-bottom: 1px solid #EFEAEA;
-}`
+}
+```
 
 ## piugins
 配置使用的插件
-`"plugins": [
+```
+"plugins": [
     "disqus"
-]`
+]
+```
 添加新插件之后需要运行`gitbook install`来安装新的插件
 
 Gitbook默认带有5个插件：
@@ -71,13 +79,15 @@ Gitbook默认带有5个插件：
 
 ## pluginsConfig
 配置插件的属性
-`"pluginsConfig": {
+```
+"pluginsConfig": {
     "fontsettings": {
         "theme": "sepia",
         "family": "serif",
         "size":  1
     }
-}`
+}
+```
 
 ## structure
 指定 Readme、Summary、Glossary 和 Languages 对应的文件名，下面是这几个文件对应变量以及默认值：
