@@ -1,0 +1,18 @@
+{
+    "plugins": [ "anchor-navigation-ex", "-lunr", "search", "search-plus",
+        "richquotes","include-codeblock","expandable-chapters",
+        "book-summary-scroll-position-saver","tags"],
+
+    "pluginsConfig": {
+        "theme-default": {
+           "showLevel": true
+        },
+        "anchor-navigation-ex": {
+           "showLevel": false,
+           "associatedWithSummary": false
+        }
+
+    }
+
+}
+
