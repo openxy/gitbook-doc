@@ -73,9 +73,11 @@ Gitbook默认带有5个插件：
 -font-settings
 -livereload
 如果要去除自带的插件， 可以在插件名称前面加-
-`"plugins":  [
+```
+"plugins":  [
     "-search"
-]`
+]
+```
 
 ## pluginsConfig
 配置插件的属性
