@@ -9,6 +9,9 @@
 * [插件](tags.md)
   
     * [tags](plugins/tags.md)
+    * [bilibili](plugins/bilibili.md)
+    * [page-toc](plugins/page-toc.md)
+    * [m](plugins/m.md)
 
 ## 参考
 * [目标与任务](refs/task.md)

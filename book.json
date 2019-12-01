@@ -1,18 +1,32 @@
 {
-    "plugins": [ "anchor-navigation-ex", "-lunr", "-search", "search-plus",
-        "richquotes","include-codeblock","expandable-chapters",
-        "book-summary-scroll-position-saver","tags"],
+  "plugins": [
+    "anchor-navigation-ex",
+    "-lunr",
+    "-search",
+    "search-plus",
+    "richquotes",
+    "include-codeblock",
+    "expandable-chapters",
+    "book-summary-scroll-position-saver",
+    "tags",
+    "bilibili",
+    "page-toc",
+    "mermaid-2"
+  ],
 
-    "pluginsConfig": {
-        "theme-default": {
-           "showLevel": true
-        },
-        "anchor-navigation-ex": {
-           "showLevel": false,
-           "associatedWithSummary": false
-        }
-
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": true
+    },
+    "anchor-navigation-ex": {
+      "showLevel": false,
+      "associatedWithSummary": false
+    },
+    "page-toc": {
+      "selector": ".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4",
+      "position": "before-first",
+      "showByDefault": false
     }
-
+  }
 }
 
