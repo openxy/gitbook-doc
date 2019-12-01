@@ -10,7 +10,6 @@
   
     * [tags](plugins/tags.md)
     * [page-toc](plugins/page-toc.md)
-    * [bilibili](plugins/bilibili.md)
 
 ## 参考
 * [目标与任务](refs/task.md)
