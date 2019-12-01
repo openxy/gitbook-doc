@@ -9,7 +9,6 @@
 * [插件](tags.md)
   
     * [tags](plugins/tags.md)
-    * [bilibili](plugins/bilibili.md)
     * [page-toc](plugins/page-toc.md)
     * [m](plugins/m.md)
 
