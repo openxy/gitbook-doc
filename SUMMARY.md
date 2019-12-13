@@ -1,9 +1,8 @@
 # Summary
 
+- [本书说明](README.md)
+
 * [安装指南](install.md)
-* [README](README.md)
-=======
-* [本书说明](README.md)
 * [配置](config.md)
 * [部署](deploy/deploy.md)
 * [插件](tags.md)
