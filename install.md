@@ -8,6 +8,7 @@
 ```
 $ npm install gitbook-cli -g
 ```
+
 ②在安装gitbook的文件夹中创建一个新的文件夹，用于存放书的内容。例如：  
 输入  
 
