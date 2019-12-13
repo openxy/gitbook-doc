@@ -10,6 +10,7 @@
   
     * [tags](plugins/tags.md)
     * [page-toc](plugins/page-toc.md)
+    * [collapsible-menu](plugins/collapsible-menu.md)
 
 ## 参考
 * [目标与任务](refs/task.md)
