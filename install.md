@@ -1,5 +1,5 @@
 # 安装指南
--------------------------  
+-------------------------
 ## 一、nodebook安装
 1.安装node.js  
 2.使用node.js中的npm下载gitbook  
@@ -7,20 +7,23 @@
 
 ```
 $ npm install gitbook-cli -g
-```  
+```
+
 ②在安装gitbook的文件夹中创建一个新的文件夹，用于存放书的内容。例如：  
 输入  
+
 ```$ mkdir webpack
-```  
+
+```
 创建一个文件夹  
 ```
 $ cd webpack  
-```  
+```
 在命令提示符中进入这个文件夹  
 ③输入  
 ```
 $ gitbook init
-```  
+```
 初始化生成文件README.md和SUMMARY.md,分别用于放书的说明和放书的目录  
 ④在webpack目录中输入  
 ```$ gitbook serve```  
@@ -43,3 +46,5 @@ npm install gitbook-plugin-chapter-fold
 ```
 命令安装插件
 
+
+```

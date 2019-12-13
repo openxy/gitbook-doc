@@ -37,6 +37,14 @@
                 
             
                 
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-page-toc/page-toc.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-mermaid-2/bower_components/mermaid/dist/mermaid.css">
+                
+            
+                
                 <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
                 
             
@@ -73,8 +81,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="./" />
+    <link rel="next" href="config.html" />
     
+    
+    <link rel="prev" href="./" />
     
 
     </head>
@@ -103,14 +113,14 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="install.html">
+        <li class="chapter " data-level="1.1" data-path="./">
             
-                <a href="install.html">
+                <a href="./">
             
                     
                         <b>1.1.</b>
                     
-                    安装指南
+                    本书说明
             
                 </a>
             
@@ -118,14 +128,14 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="./">
+        <li class="chapter active" data-level="1.2" data-path="install.html">
             
-                <a href="./">
+                <a href="install.html">
             
                     
                         <b>1.2.</b>
                     
-                    本书说明
+                    安装指南
             
                 </a>
             
@@ -187,6 +197,36 @@
                         <b>1.5.1.</b>
                     
                     tags
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="plugins/page-toc.html">
+            
+                <a href="plugins/page-toc.html">
+            
+                    
+                        <b>1.5.2.</b>
+                    
+                    page-toc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="plugins/collapsible-menu.html">
+            
+                <a href="plugins/collapsible-menu.html">
+            
+                    
+                        <b>1.5.3.</b>
+                    
+                    collapsible-menu
             
                 </a>
             
@@ -330,8 +370,9 @@
 <hr>
 <h2 id="&#x4E00;&#x3001;nodebook&#x5B89;&#x88C5;"><a name="&#x4E00;&#x3001;nodebook&#x5B89;&#x88C5;" class="anchor-navigation-ex-anchor" href="#&#x4E00;&#x3001;nodebook&#x5B89;&#x88C5;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E00;&#x3001;nodebook&#x5B89;&#x88C5;</h2>
 <p>1.&#x5B89;&#x88C5;node.js<br>2.&#x4F7F;&#x7528;node.js&#x4E2D;&#x7684;npm&#x4E0B;&#x8F7D;gitbook<br>&#x2460;&#x6253;&#x5F00;&#x547D;&#x4EE4;&#x63D0;&#x793A;&#x7B26;&#xFF0C;&#x8F93;&#x5165;:</p>
-<pre><code>$ npm install gitbook-cli-g
-</code></pre><p>&#x2461;&#x5728;&#x5B89;&#x88C5;gitbook&#x7684;&#x6587;&#x4EF6;&#x5939;&#x4E2D;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x6587;&#x4EF6;&#x5939;&#xFF0C;&#x7528;&#x4E8E;&#x5B58;&#x653E;&#x4E66;&#x7684;&#x5185;&#x5BB9;&#x3002;&#x4F8B;&#x5982;&#xFF1A;<br>&#x8F93;&#x5165;<br>```$ mkdir webpack</p>
+<pre><code>$ npm install gitbook-cli -g
+</code></pre><p>&#x2461;&#x5728;&#x5B89;&#x88C5;gitbook&#x7684;&#x6587;&#x4EF6;&#x5939;&#x4E2D;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x6587;&#x4EF6;&#x5939;&#xFF0C;&#x7528;&#x4E8E;&#x5B58;&#x653E;&#x4E66;&#x7684;&#x5185;&#x5BB9;&#x3002;&#x4F8B;&#x5982;&#xFF1A;<br>&#x8F93;&#x5165;  </p>
+<p>```$ mkdir webpack</p>
 <pre><code>&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x5939;
 </code></pre><p>$ cd webpack  </p>
 <pre><code>&#x5728;&#x547D;&#x4EE4;&#x63D0;&#x793A;&#x7B26;&#x4E2D;&#x8FDB;&#x5165;&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#x5939;  
@@ -350,10 +391,9 @@ book.json</p>
 }  
 &#x2461;&#x4F7F;&#x7528;
 </code></pre>
-<p>npm install gitbook-plugin-chapter-fold
-```
-&#x547D;&#x4EE4;&#x5B89;&#x88C5;&#x63D2;&#x4EF6;</p>
-
+<p>npm install gitbook-plugin-chapter-fold</p>
+<pre><code>&#x547D;&#x4EE4;&#x5B89;&#x88C5;&#x63D2;&#x4EF6;
+</code></pre>
                                 
                                 </section>
                             
@@ -380,8 +420,12 @@ book.json</p>
 
             
                 
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 本书说明">
+                    <i class="fa fa-angle-left"></i>
+                </a>
                 
-                <a href="./" class="navigation navigation-next navigation-unique" aria-label="Next page: 本书说明">
+                
+                <a href="config.html" class="navigation navigation-next " aria-label="Next page: 配置">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -392,7 +436,7 @@ book.json</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"安装指南","level":"1.1","depth":1,"next":{"title":"本书说明","level":"1.2","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["anchor-navigation-ex","-lunr","-search","search-plus","richquotes","include-codeblock","expandable-chapters","book-summary-scroll-position-saver","tags","livereload"],"pluginsConfig":{"livereload":{},"book-summary-scroll-position-saver":{},"fontsettings":{"theme":"white","family":"sans","size":2},"richquotes":{},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":false,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"tags":{"placement":"top"},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"chrome","unindent":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"expandable-chapters":{},"search-plus":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"install.md","mtime":"2019-11-06T12:47:04.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-11-06T14:20:20.595Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"安装指南","level":"1.2","depth":1,"next":{"title":"配置","level":"1.3","depth":1,"path":"config.md","ref":"config.md","articles":[]},"previous":{"title":"本书说明","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["anchor-navigation-ex","-lunr","-search","search-plus","richquotes","include-codeblock","expandable-chapters","book-summary-scroll-position-saver","tags","bilibili","page-toc","mermaid-2","livereload"],"pluginsConfig":{"livereload":{},"book-summary-scroll-position-saver":{},"bilibili":{},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4","showByDefault":false},"mermaid-2":{},"fontsettings":{"theme":"white","family":"sans","size":2},"richquotes":{},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":false,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"tags":{"placement":"top"},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"chrome","unindent":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"expandable-chapters":{},"search-plus":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"install.md","mtime":"2019-12-13T00:34:42.674Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-13T00:49:16.834Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -415,6 +459,18 @@ book.json</p>
     
         
         <script src="gitbook/gitbook-plugin-book-summary-scroll-position-saver/book-summary-scroll-position-saver.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-page-toc/anchor-3.1.1.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-page-toc/page-toc.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-mermaid-2/plugin.js"></script>
         
     
         
