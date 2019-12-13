@@ -6,7 +6,7 @@
 ①打开命令提示符，输入:
 
 ```
-$ npm install gitbook-cli-g
+$ npm install gitbook-cli -g（注意cli和-g之间的空格）
 ```  
 ②在安装gitbook的文件夹中创建一个新的文件夹，用于存放书的内容。例如：  
 输入  

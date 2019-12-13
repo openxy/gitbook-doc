@@ -1,11 +1,7 @@
 {
-<<<<<<< HEAD
-    "plugins": [ "anchor-navigation-ex", "-lunr", "search", "search-plus",
-=======
     "plugins": [ "anchor-navigation-ex", "-lunr", "-search", "search-plus",
->>>>>>> 85dd69e9b7d3a9b232d39f84656e3ca2994a8c28
         "richquotes","include-codeblock","expandable-chapters",
-        "book-summary-scroll-position-saver","tags"],
+        "book-summary-scroll-position-saver","tags","back-to-top-button","sectionx","mcqx","fbqx","ace","spoiler","search-pro","multipart"],
 
     "pluginsConfig": {
         "theme-default": {

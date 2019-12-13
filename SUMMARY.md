@@ -5,12 +5,16 @@
 * [README](README.md)
 =======
 * [本书说明](README.md)
-* [安装](setup.md)
-* [配置](config.md)
 * [部署](deploy/deploy.md)
 * [插件](tags.md)
+	* [search-pro](plugins/search-pro.md)
+	* [multipart](plugins/multipart.md)
     * [tags](plugins/tags.md)
-
+	* [sectionx](plugins/sectionx.md)
+	* [mcqx](plugins/mcqx.md)
+	* [fbqx](plugins/fbqx.md)
+	* [ace](plugins/ace.md)
+	* [spoiler](plugins/spoiler.md)
 ## 参考
 * [目标与任务](refs/task.md)
 * [gitbook](refs/gitbook.md)
