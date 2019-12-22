@@ -14,14 +14,10 @@
 	* [intopic-toc](plugins/intopic-toc.md)
 	* [prism](plugins/prism.md)
 	* [mermaid-2](plugins/mermaid-2.md)
-	* [chart](plugins/chart.md)
 	* [klipse](plugins/klipse.md)
 	* [git-author](plugins/git-author.md)
-  * [tags](plugins/tags.md)
-	* [sectionx](plugins/sectionx.md)
-	* [mcqx](plugins/mcqx.md)
-	* [fbqx](plugins/fbqx.md)
-	* [spoiler](plugins/spoiler.md)
+	* [tags](plugins/tags.md)
+  * [sectionx](plugins/sectionx.md)
 	* [page-toc](plugins/page-toc.md)
 ## 参考
 
