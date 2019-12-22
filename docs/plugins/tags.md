@@ -1,4 +1,4 @@
-tags: 标签
+tags:标签
 
 # tags
 https://github.com/billryan/gitbook-plugin-tags

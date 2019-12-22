@@ -1,18 +1,9 @@
-# collapsible-menu
+# collapsible-menu(可折叠菜单)
 
-https://github.com/rtCamp/gitbook-plugin-collapsible-menu
+#说明
+可将侧边栏菜单更改为可折叠菜单。对于有很多页面的gitbook，浏览长菜单可能会很烦人。
 
-## 说明
-
-本插件可将GitBook左边的菜单栏自动折叠。生成的GitBook默认是将所有菜单展开的，对于某些目录过多的电子书来说，展开后的菜单太长，本插件可以将菜单自动折叠起来，改善阅读体验。
-
-## 用法
-
-在`book.json`文件中加入下面的代码，并安装即可。
-
-```
-{
-    "plugins": ["collapsible-menu"],
-}
-```
-
+![参考图片](https://note.youdao.com/yws/api/personal/file/B9429B5F041E4D748181A7B3BEC431A0?method=download&shareKey=33ea22f6e0e5b1b503e80ed0cbadbf41)
+<font face="黑体" color=black size=5>在安装该插件后，原来菜单栏的插件块变成可折叠。</font>
+#demo
+[参考网站](https://github.com/rtCamp/gitbook-plugin-collapsible-menu)
