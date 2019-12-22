@@ -21,7 +21,6 @@
 	* [sectionx](plugins/sectionx.md)
 	* [mcqx](plugins/mcqx.md)
 	* [fbqx](plugins/fbqx.md)
-	* [ace](plugins/ace.md)
 	* [spoiler](plugins/spoiler.md)
 	* [page-toc](plugins/page-toc.md)
 ## 参考
