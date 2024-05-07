@@ -1,7 +1,7 @@
 # 安装指南
 -------------------------  
 ## 一、nodebook安装
-1.安装node.js  
+1.安装node.js    
 2.使用node.js中的npm下载gitbook  
 ①打开命令提示符，输入:
 
